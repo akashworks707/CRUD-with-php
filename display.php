@@ -1,4 +1,9 @@
 <?php
+  session_start();
+  if(!isset($_SESSION['user'])){
+    header("Location: login.php");
+    exit();
+  }
   include "connect.php";
   $sql= "SELECT * FROM `students` ";
   $result= mysqli_query($con,$sql);
