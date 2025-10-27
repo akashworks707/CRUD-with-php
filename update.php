@@ -43,7 +43,7 @@
 </head>
 <body>
    <div class="container py-5">
-    <a href="/crud/user.php" class="btn btn-primary">Add User</a>
+    <a href="/CRUD-with-php/user.php" class="btn btn-primary">Add User</a>
       <form method="POST" action="">
         <input class="form-control mt-2" type="text" value="<?php echo $name ?>" name="name">
         <input class="form-control mt-2" type="email" value="<?php echo $mail ?>" name="email">

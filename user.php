@@ -31,7 +31,7 @@
 </head>
 <body>
    <div class="container py-5">
-    <a href="/crud/display.php" class="btn btn-primary">All User</a>
+    <a href="/CRUD-with-php/display.php" class="btn btn-primary">All User</a>
       <form method="POST" action="">
         <input class="form-control mt-2" type="text" placeholder="Name" name="name">
         <input class="form-control mt-2" type="email" placeholder="Email" name="email">

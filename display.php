@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="container py-5">
-    <a href="/crud/user.php" class="btn btn-primary">Add User</a>
+    <a href="/CRUD-with-php/user.php" class="btn btn-primary">Add User</a>
     <table class="table">
       <tr>
         <th>ID</th>
