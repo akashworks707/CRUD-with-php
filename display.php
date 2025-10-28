@@ -20,7 +20,10 @@
 </head>
 <body>
   <div class="container py-5">
+     <div class="d-flex justify-content-between">
     <a href="/CRUD-with-php/user.php" class="btn btn-primary">Add User</a>
+     <a class='btn btn-danger' href="/CRUD-with-php/logout.php">Logout</a>
+         </div>
     <table class="table">
       <tr>
         <th>ID</th>

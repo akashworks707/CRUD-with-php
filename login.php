@@ -18,7 +18,7 @@ if(isset($_POST['login'])){
             exit();
         } else {
             echo "❌ Wrong password!";
-        }
+        } 
     } else {
         echo "❌ No user found!";
     }
