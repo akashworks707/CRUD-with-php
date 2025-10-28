@@ -25,7 +25,7 @@
         $phone =$_POST['phone'];
         $pass =$_POST['pass'];
 
-        $sql= "UPDATE students SET name='$name', email='$email', mobile='$phone', password='$pass'";
+        $sql= "UPDATE students SET name='$name', email='$email', mobile='$phone', password='$pass' WHERE id=$id";
         $result= mysqli_query($con,$sql);
 
         if($result){
